@@ -4,10 +4,10 @@ const {interface, bytecode} = require ('./compile.js');
 
 const provider = new HDWalletProvider(
     // mnemonic from MetaMask
-    'idea sign clarify tape cargo chimney room stairs nothing giggle electric waste',
+    'your metamask 12 mnemonic words',
 
     //APIKEY from Infura.io which runs a ethereum node on the Rinkeby Network
-    'https://rinkeby.infura.io/v3/b775911c6d024d2f98148e74f80eff86'
+    'your infura api key for rinkeby testnet'
 )
 
 // take provider and pass the Web3 constructer and get instance of web3
